@@ -3,6 +3,12 @@ import raisinsImage from "@/assets/raisins.jpg";
 import almondsImage from "@/assets/almonds.jpg";
 import datesImage from "@/assets/dates.jpg";
 import mixedNutsImage from "@/assets/mixed-nuts.jpg";
+import a from "@/assets/a.jpg"
+import b from "@/assets/b.jpg"
+import c from "@/assets/c.jpg"
+import d from "@/assets/d.jpg"
+import aa from "@/assets/aa.jpg"
+
 import { ContactForm } from "@/components/ContactForm";
 import { Mail, MapPin, Phone } from "lucide-react";
 
@@ -11,9 +17,9 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[80vh] overflow-hidden">
-        <img 
-          src={heroImage} 
-          alt="Premium Dry Fruits Collection" 
+        <img
+          src={aa}
+          alt="Premium Dry Fruits Collection"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-black/20 flex items-center justify-center">
@@ -32,17 +38,17 @@ const Index = () => {
       <section className="py-20 px-4 md:px-8 lg:px-16 bg-background">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img 
-              src={raisinsImage} 
-              alt="Golden Raisins" 
-              className="w-full h-[400px] object-cover"
+            <img
+              src={a}
+              alt="Golden Raisins"
+              className="w-full h-[800px] object-cover"
             />
           </div>
           <div className="space-y-4">
             <h2 className="text-4xl font-bold text-foreground">Golden Raisins</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our premium golden raisins are sun-dried to perfection, preserving their natural sweetness 
-              and nutritional value. Rich in antioxidants and essential minerals, these delicious treats 
+              Our premium golden raisins are sun-dried to perfection, preserving their natural sweetness
+              and nutritional value. Rich in antioxidants and essential minerals, these delicious treats
               are perfect for snacking or adding to your favorite recipes.
             </p>
           </div>
@@ -55,16 +61,16 @@ const Index = () => {
           <div className="space-y-4 md:order-1">
             <h2 className="text-4xl font-bold text-foreground">Premium Almonds</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sourced from the finest orchards, our almonds are packed with protein, healthy fats, 
-              and vitamin E. Each almond is carefully selected to ensure superior quality and taste. 
+              Sourced from the finest orchards, our almonds are packed with protein, healthy fats,
+              and vitamin E. Each almond is carefully selected to ensure superior quality and taste.
               A perfect choice for a nutritious and satisfying snack.
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg md:order-2">
-            <img 
-              src={almondsImage} 
-              alt="Premium Almonds" 
-              className="w-full h-[400px] object-cover"
+            <img
+              src={b}
+              alt="Premium Almonds"
+              className="w-full h-[800px] object-cover"
             />
           </div>
         </div>
@@ -74,17 +80,17 @@ const Index = () => {
       <section className="py-20 px-4 md:px-8 lg:px-16 bg-background">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img 
-              src={datesImage} 
-              alt="Fresh Dates" 
-              className="w-full h-[400px] object-cover"
+            <img
+              src={c}
+              alt="Fresh Dates"
+              className="w-full h-[800px] object-cover"
             />
           </div>
           <div className="space-y-4">
             <h2 className="text-4xl font-bold text-foreground">Fresh Dates</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Experience the natural sweetness of our premium dates. Handpicked at peak ripeness, 
-              these nutrient-dense fruits are an excellent source of fiber, potassium, and natural 
+              Experience the natural sweetness of our premium dates. Handpicked at peak ripeness,
+              these nutrient-dense fruits are an excellent source of fiber, potassium, and natural
               energy. Perfect for a quick energy boost or as a natural sweetener.
             </p>
           </div>
@@ -97,16 +103,16 @@ const Index = () => {
           <div className="space-y-4 md:order-1">
             <h2 className="text-4xl font-bold text-foreground">Mixed Nuts Collection</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our signature mix combines cashews, walnuts, and more for the ultimate healthy snacking 
-              experience. Each variety brings unique flavors and health benefits, from heart-healthy 
+              Our signature mix combines cashews, walnuts, and more for the ultimate healthy snacking
+              experience. Each variety brings unique flavors and health benefits, from heart-healthy
               omega-3s to brain-boosting nutrients. Perfectly balanced for your wellness.
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg md:order-2">
-            <img 
-              src={mixedNutsImage} 
-              alt="Mixed Nuts" 
-              className="w-full h-[400px] object-cover"
+            <img
+              src={d}
+              alt="Mixed Nuts"
+              className="w-full h-[800px] object-cover"
             />
           </div>
         </div>
